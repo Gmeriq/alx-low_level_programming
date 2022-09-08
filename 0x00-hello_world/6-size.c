@@ -1,5 +1,5 @@
 #include <stdio.h>
-/** 
+/**
  *Description:main-Printing size of types
  *Return:Always 0 (Success)
  */
