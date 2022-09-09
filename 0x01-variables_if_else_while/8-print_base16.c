@@ -6,13 +6,14 @@
 int main(void)
 {
 int num;
+char ch;
 for (num = '0'; num <= '16' ; num++)
 {
 putchar(num);
 }
-for (num = 'a'; num <= 'f' ; num++)
+for (ch = 'a'; ch <= 'f' ; ch++)
 {
-putchar(num);
+putchar(ch);
 }
 putchar('\n');
 return (0);
