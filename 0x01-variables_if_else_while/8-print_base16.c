@@ -10,6 +10,10 @@ for (num = '0'; num <= '16' ; num++)
 {
 putchar(num);
 }
+for (num = 'a'; num <= 'f' ; num++)
+{
+putchar(num);
+}
 putchar('\n');
 return (0);
 }
