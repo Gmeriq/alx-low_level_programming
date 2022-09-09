@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *Description:mainPrint base 16 numbers
+ *Description:main-Print base 16 numbers
  *Return:Always 0 (success)
  */
 int main(void)
