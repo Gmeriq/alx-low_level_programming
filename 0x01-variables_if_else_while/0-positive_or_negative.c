@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  *Descrription:main-Simple if statement
- *Return Always 0 (success)
+ *Return:Always 0 (success)
  */
 int main(void)
 {
