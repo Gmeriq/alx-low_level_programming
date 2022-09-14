@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *Description:main-Printing all alphabets
+ *Description:print_alphabet-Printing all alphabets
  */
 void print_alphabet(void)
 {
@@ -9,5 +9,5 @@ for(ch = 'a'; ch <= 'z'; ch++)
 {
 putchar(ch);
 }
-putchar('\n');
+putchar ('\n');
 }
