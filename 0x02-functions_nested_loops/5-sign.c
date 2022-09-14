@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  *Description:print_sign-Find the sign of a number
  *Return: 1 when true 0 when false
