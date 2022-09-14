@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *Description:entry point-Printing using _putchar
+ *Description:main-Printing using _putchar
  *Return:Absolute 0 (success)
  */
 int main(void)
@@ -14,5 +14,5 @@ putchar('h');
 putchar('a');
 putchar('r');
 putchar('\n');
-return(0);
+return (0);
 }
