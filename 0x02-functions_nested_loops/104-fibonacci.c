@@ -1,6 +1,8 @@
 #include <stdio.h>
-/**Description:main-print the first 98 fibonacci numbers.
- *Return:0 when success*/
+/**
+ *Description:main-print the first 98 fibonacci numbers.
+ *Return:0 when success
+ */
 int main(void)
 {
 int count;
@@ -30,17 +32,11 @@ n = p;
 i = j;
 j = k;
 if (p >= 100)
-{
 printf("%lu%lu", k, p);
-}
 else
-{
 printf("%lu0%lu", k, p);
-}
 if (count != 98)
-{
 printf(", ");
-}
 count++;
 }
 putchar('\n');

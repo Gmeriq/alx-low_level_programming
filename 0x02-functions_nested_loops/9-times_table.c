@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *Description: times_table - Creating multiplication table
- *Return:0 when success*/
+ */
 void times_table(void)
 {
 int row, col, num;
@@ -29,5 +29,4 @@ putchar(' ');
 }
 putchar('\n');
 }
-return (0);
 }

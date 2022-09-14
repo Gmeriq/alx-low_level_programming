@@ -7,7 +7,7 @@
 int print_last_digit(int r)
 {
 r = print_last_digit(98);
-_putchar('0' + r);
-_putchar('\n');
+putchar('0' + r);
+putchar('\n');
 return (0);
 }

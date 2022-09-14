@@ -8,6 +8,6 @@ int _isalpha(int c)
 {
 int r;
 r = _isalpha(n);
-_putchar(r + '0');
-_putchar('\n');
+putchar(r + '0');
+putchar('\n');
 }
