@@ -3,9 +3,4 @@
  *Descriptio:main-Header file
  *Return:Always 0 when successful
  */
-int main(void)
-{
-putchar("_putchar");
-putchar("\n");
-return(0);
-}
+int print_putchar;
