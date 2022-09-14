@@ -6,7 +6,9 @@
  */
 int _islower(int c)
 {
-if (islower(c))
+int r;
+r = _islower(c);
+if (r == true)
 {
 return (1);
 }
@@ -14,4 +16,5 @@ else
 {
 return (0);
 }
+putchar('\n');
 }

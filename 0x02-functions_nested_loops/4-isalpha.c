@@ -6,7 +6,9 @@
  */
 int _isalpha(int c)
 {
-if (isalpha(c) || isupper || islower)
+int r;
+r = isalpha(c);
+if (r == true)
 {
 return (1);
 }
