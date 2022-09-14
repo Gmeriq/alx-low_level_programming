@@ -4,3 +4,4 @@
  *Return:Always 0 when successful
  */
 int print_putchar(void);
+void print_alphabet(void);
