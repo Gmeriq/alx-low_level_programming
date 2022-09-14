@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include "main.h"
 /**
  *Description:main-Printing all alphabets
  *Return:Always 0 when success
  */
-int main(void)
+void print_alphabet(void)
 {
 int ch;
 for(ch = 'a'; ch <= 'z'; ch++)
