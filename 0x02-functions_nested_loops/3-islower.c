@@ -8,12 +8,6 @@ int _islower(int c)
 {
 int r;
 r = _islower(c);
-if (r == 1)
-{
-return (1);
-}
-else
-{
-return (0);
-}
+putchar(r + '0');
+putchar('\n');
 }
