@@ -3,7 +3,7 @@
  *Description:entry point-Printing using _putchar
  *Return:Absolute 0 (success)
  */
-int print_putchar(void)
+int main(void)
 {
 putchar('_');
 putchar('p');
