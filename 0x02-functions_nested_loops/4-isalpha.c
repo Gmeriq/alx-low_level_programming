@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  *Description:_isalpha- Cheking if a letter is alpha
  *Return:1 if alpha 0 when not
