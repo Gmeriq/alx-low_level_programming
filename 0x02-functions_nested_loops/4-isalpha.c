@@ -8,12 +8,6 @@ int _isalpha(int c)
 {
 int r;
 r = isalpha(c);
-if (r == true)
-{
-return (1);
-}
-else
-{
-return (0);
-}
+putchar (r + '0');
+putchar ('\n');
 }
