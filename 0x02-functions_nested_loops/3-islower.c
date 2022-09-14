@@ -6,8 +6,10 @@
  */
 int _islower(int c)
 {
-int r;
-r = _islower(c);
-putchar (r + '0');
-putchar ('\n');
+if (c >= 'a' || c <= 'z')
+{
+return (1);
+else
+return (0);
+}
 }
