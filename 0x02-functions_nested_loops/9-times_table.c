@@ -14,7 +14,7 @@ for (col = 0; col <= 9; col++)
 {
 num = (row * col);
 if ((num / 10) > 0)
-putchar((d / 10) > 0);
+putchar((num / 10) > 0);
 else
 putchar('');
 if (col < 9)
