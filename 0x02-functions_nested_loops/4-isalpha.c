@@ -1,4 +1,5 @@
 #include "main"
+#include <ctype.h>
 /**
  *Description:_isalpha- Cheking if a letter is alpha
  *Return:1 if alpha 0 when not
@@ -7,7 +8,7 @@
 int _isalpha(int c)
 {
 int r;
-r = isalpha(c);
+r = _isalpha(c);
 putchar (r + '0');
 putchar ('\n');
 }
