@@ -6,24 +6,11 @@
  */
 int print_sign(int n)
 {
-if (n > 0)
-{
-return (1);
-putchar('+');
-}
-else if (n == 0)
-{
+int r;
+r = print_sign(98);
+if (r < 0)
+r *= -1;
+_putchar(r + '0');
+_putchar('\n');
 return (0);
-putchar('0');
-}
-else if (n < 0)
-{
-return (-1);
-putchar('-');
-}
-else
-{
-putchar('-');
-return ('/');
-}
 }

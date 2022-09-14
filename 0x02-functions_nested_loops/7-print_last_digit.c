@@ -1,13 +1,13 @@
 #include "main.h"
 /**
  *Description: print_last_digit - Print the last digit
- *@m -the variable
+ *@r -the variable
  *return:0 when successful
  */
-int print_last_digit(int m)
+int print_last_digit(int r)
 {
-if (m < 0)
-m = (-1 * m);
-putchar((m % 10) + '0');
-return (m % 10);
+r = print_last_digit(98);
+_putchar('0' + r);
+_putchar('\n');
+return (0);
 }

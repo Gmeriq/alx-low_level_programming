@@ -1,8 +1,6 @@
 #include <stdio.h>
-/**
- *Description:main-print the first 98 fibonacci numbers.
- *Return:0 when success
- */
+/**Description:main-print the first 98 fibonacci numbers.
+ *Return:0 when success*/
 int main(void)
 {
 int count;
