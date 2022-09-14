@@ -9,7 +9,7 @@ for (row = 0; row <= 9; row++)
 {
 putchar('0');
 putchar(',');
-putchar(' ');
+putchar('-');
 for (col = 0; col <= 9; col++)
 {
 num = (row * col);
@@ -19,7 +19,7 @@ else
 putchar('');
 if (col < 9)
 putchar(',');
-putchar(' ');
+putchar('-');
 }
 putchar('\n');
 }
