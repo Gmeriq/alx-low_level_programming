@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  *Description:entry point-Printing using _putchar
  *Return:Absolute 0 (success)
