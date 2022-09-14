@@ -1,4 +1,4 @@
-#include "main"
+#include <stdio.h>
 /**
  *Description:main-Printing all alphabets
  *Return:Always 0 when success
