@@ -5,7 +5,6 @@
  */
 int print_putchar(ch)
 {
-string ch;
 ch = "_putchar";
 putchar(ch);
 putchar("\n");
