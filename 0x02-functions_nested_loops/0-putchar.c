@@ -3,9 +3,8 @@
  *Description:main-Print _putchar
  *Return:Absolute 0 (success)
  */
-int print_putchar(char ch)
+int print_putchar(void)
 {
-ch = "_putchar";
 putchar('_');
 putchar('p');
 putchar('u');
