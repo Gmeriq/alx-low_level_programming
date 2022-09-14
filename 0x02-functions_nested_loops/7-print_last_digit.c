@@ -1,7 +1,7 @@
-#include "main"
+#include "main.h"
 /**
  *Description: print_last_digit - Print the last digit
- *@ -the variable
+ *@m -the variable
  *return:0 when successful
  */
 int print_last_digit(int m)
