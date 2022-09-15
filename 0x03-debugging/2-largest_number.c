@@ -15,18 +15,14 @@ int largest;
 if (a > b && b > c)
 {
 largest = a;
-putchar(largest);
 }
 else if (b > a && a > c)
 {
 largest = b;
-putchar(largest);
 }
-else
+else if (c > a && a > b)
 {
 largest = c;
-putchar(largest);
 }
-
 return (largest);
 }
