@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int _isupper-Check case of character
+ * _isupper-Check case of character
  * @c: Character checked for status
  * Return:1 when upper o when lower
  */
