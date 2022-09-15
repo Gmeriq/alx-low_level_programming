@@ -24,5 +24,6 @@ else if ((c > a && a > b) || (c > b && b > a))
 {
 largest = c;
 }
-return (largest);
+printf("%d is the largest number\n", largest);
+return (0);
 }
