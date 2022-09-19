@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _puts - Print a string
- * @str - variable containing string
+ * @str:variable containing string
  * Return: 0 when success
  */
 void _puts(char *str)
