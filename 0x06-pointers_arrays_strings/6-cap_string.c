@@ -1,25 +1,26 @@
 #include "main.h"
 /**
  * cap_string - capitalize all words of a string
- * @x: array containg string
+ * @z: array containg string
  * Return: string
  */
-char *cap_string(char *x)
+char *cap_string(char *z)
 {
-char spc[] = { 32, 9, '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
-int len = 13;
-int a = 0;
-while (x[a])
+int i = 0;
+int j;
+char badBoys[] = " \n\t,;.!?\"(){}";
+if (z[0] >= 'a' && z[0] <= 'z')
+z[0] -= 32;
+for (; z[i] != '\0'; i++)
 {
-while (len <= 13)
+for (j = 0; j < 14; j++)
 {
-if ((a == 0 || x[a - 1] == spc[len]) && (x[a] >= 97 && x[a] <= 122))
+if (z[i] == badBoys[j])
 {
-x[a] = x[a] - 32;
-len++;
+if (z[i + 1] >= 'a' && z[i + 1] <= 'z')
+z[i + 1] -= 32;
 }
 }
-a++;
 }
-return (x);
+return (z);
 }
