@@ -10,12 +10,12 @@ void print_number(int n)
 int pot_10 = 1, sign = 1, tmp = n;
 while (tmp / 10)
 {
-pot_10 *= 10;
-tmp /= 10;
+pot_10 = pot_10 * 10;
+tmp = tmp / 10;
 }
 if (tmp < 0)
 {
-sign *= -1;
+sign = sign * -1;
 putchar('-');
 }
 while (pot_10 > 0)
