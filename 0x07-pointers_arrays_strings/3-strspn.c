@@ -7,18 +7,19 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-int i, j, t;
-char *p;
-for (i = 0; s[i]; i++)
+unsigned int c = 0;
+char *t = accept;
+while (*s++)
 {
-for (j = 0; accept[j]; j++)
+while (*accept++)
+if (*(s - 1) == *(accept - 1))
 {
-if (s[i] == accept[j])
-{
-p = &s[i];
-t = strlen(p);
-return (t);
+c++;
+break;
 }
+if (!(*--accept)
+break;
+accept = t;
 }
-}
+return (c);
 }
