@@ -16,10 +16,11 @@ for (j = 0; needle[j]; j++)
 {
 if (needle != NULL)
 {
-if (haystack[i] == needle[0])
+while (haystack[i] == needle[0])
 {
 p = &haystack[i];
 return (p);
+j++;
 }
 }
 else
