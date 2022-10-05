@@ -7,17 +7,23 @@
  */
 char *create_array(unsigned int size, char c)
 {
-char *p = "H";
-p[0] = c;
-size = strlen(p);
+char *str;
+unsigned int i;
+str = malloc(sizeof(char) * size);
 if (size == 0)
 {
 return (NULL);
 }
-if (p[size])
+else if (str == NULL)
 {
-return (p);
+return (NULL);
 }
 else
-return (NULL);
+{
+for (i = 0; i < size; i++)
+{
+str[i] = c;
+}
+}
+return (str);
 }
