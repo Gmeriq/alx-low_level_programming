@@ -6,6 +6,6 @@
  */
 int main()
 {
-printf ("The name on the file is %s\n", __FILE__);
+printf ("%s\n", __FILE__);
 return (0);
 }
