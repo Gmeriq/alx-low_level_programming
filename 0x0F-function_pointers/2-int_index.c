@@ -8,9 +8,11 @@
  * Return: The index of the first element for which the cmp function
  * does not return 0. If no element matches or if size is <= 0, return -1.
  */
+
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i, elem;
+
 	i = 0;
 	if (size <= 0 || array == NULL || cmp == NULL)
 		return (-1);
