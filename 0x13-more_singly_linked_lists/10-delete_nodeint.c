@@ -3,7 +3,7 @@
 /**
  * delete_nodeint_at_index - deletes a node at index
  * @index: noede that's deleted
- *
+ * @head: the list
  * Return: 1 0n success and -1 on failure
  */
 
