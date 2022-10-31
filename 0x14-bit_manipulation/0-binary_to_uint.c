@@ -22,7 +22,7 @@ unsigned int _pow(unsigned int base, int power)
 	return (output);
 }
 /**
- * binary_to_int - converts binary to decimal
+ * binary_to_uint - converts binary to decimal
  * @b: the binary number
  *
  * Return: the decimal number
