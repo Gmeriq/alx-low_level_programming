@@ -2,7 +2,7 @@
 
 /**
  * read_textfile - reads a text file and prints it to POSIX
- * 			standard output
+ * standard output
  * @filename: name of text file
  * @letters: number of characters in text file
  *
