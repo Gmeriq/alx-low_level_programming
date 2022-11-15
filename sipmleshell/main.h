@@ -6,4 +6,9 @@
 #include <string.h>
 #include <unistd.h>
 #include <sys/wait.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+
+extern char **environ;
+
 #endif
