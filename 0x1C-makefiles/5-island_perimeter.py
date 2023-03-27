@@ -1,6 +1,12 @@
 #!/usr/bin/python3
-
+"""
+Calculate island perimeter
+"""
 def island_perimeter(grid):
+    """
+    loops through the list and increments perimeter
+    when conditions are met
+    """
     p = 0
 
     for r in range(len(grid)):
