@@ -2,6 +2,8 @@
 """
 Calculate island perimeter
 """
+
+
 def island_perimeter(grid):
     """
     loops through the list and increments perimeter
